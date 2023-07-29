@@ -150,6 +150,22 @@ body {
   }
   .sc-container input[type=text] {
     font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    padding: 8px 16px;
+    background-color: #fff;
+    width: 100%;
+    transition: border-color 0.2s ease;
+  }
+  .sc-container input[type=text]::-moz-placeholder {
+    color: #666;
+  }
+  .sc-container input[type=text]::placeholder {
+    color: #666;
+  }
+  .sc-container input[type=text]:focus {
+    outline: none;
+    border-color: #f2f2f2;
   }
 }
 @media screen and (max-width: 768px) {
@@ -173,40 +189,37 @@ body {
   .sc-container .searching-fields .lens {
     margin: 10px 0;
   }
+  .sc-container input[type=text] {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    padding: 8px 16px;
+    background-color: #fff;
+    width: 100%;
+    transition: border-color 0.2s ease;
+  }
+  .sc-container input[type=text]::-moz-placeholder {
+    color: #666;
+  }
+  .sc-container input[type=text]::placeholder {
+    color: #666;
+  }
+  .sc-container input[type=text]:focus {
+    outline: none;
+    border-color: #f2f2f2;
+  }
   .sc-container input[type=submit] {
     margin-top: 10px;
+    border: none;
+    background-color: #f2f2f2;
     color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
   }
-}
-input[type=text] {
-  border: 1px solid #ccc;
-  border-radius: 24px;
-  padding: 8px 16px;
-  background-color: #fff;
-  width: 100%;
-  transition: border-color 0.2s ease;
-}
-input[type=text]::-moz-placeholder {
-  color: #666;
-}
-input[type=text]::placeholder {
-  color: #666;
-}
-input[type=text]:focus {
-  outline: none;
-  border-color: #f2f2f2;
-}
-
-input[type=submit] {
-  border: none;
-  background-color: #f2f2f2;
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-input[type=submit]:hover {
-  background-color: #e0e0e0;
+  .sc-container input[type=submit]:hover {
+    background-color: #e0e0e0;
+  }
 }/*# sourceMappingURL=styles.css.map */
