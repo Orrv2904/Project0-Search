@@ -1,0 +1,133 @@
+@import url("https://fonts.cdnfonts.com/css/noto-sans-tamil");
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans Tamil", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.head {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.head .links ul {
+  list-style: none;
+  display: flex;
+}
+.head .links ul li {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 90%;
+}
+.head .links ul li a {
+  text-decoration: none;
+  color: #555;
+}
+.head .links ul li a:hover {
+  text-decoration: underline;
+}
+.head .links ul li .grid {
+  height: 23px;
+  position: relative;
+  bottom: 4px;
+}
+.head .links ul li .signbutton {
+  background-color: #4885ed;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  position: relative;
+  bottom: 7px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+.head .links ul li .signbutton.left-rounded {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.head .links ul li .signbutton.right-rounded {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.head .links ul li .signbutton:hover {
+  transform: scale(1.1);
+}
+
+.sc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.sc-container .google-img {
+  max-width: 500px;
+  height: 92px;
+  width: 272px;
+  margin: 0 auto;
+}
+.sc-container .searching-fields {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  padding: 4px 15px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px -1px 3px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin-top: 50px;
+}
+.sc-container .searching-fields .fa-magnifying-glass {
+  font-size: 18px;
+  color: #555;
+  margin-right: 8px;
+}
+.sc-container .searching-fields input[type=text] {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  background-color: #fff;
+}
+.sc-container .searching-fields input[type=text]::-moz-placeholder {
+  color: #666;
+}
+.sc-container .searching-fields input[type=text]::placeholder {
+  color: #666;
+}
+.sc-container .searching-fields .microphone,
+.sc-container .searching-fields .lens {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.sc-container .searching-fields .lens {
+  margin-right: 12px;
+}
+.sc-container input[type=submit] {
+  margin-top: 20px;
+  border: none;
+  background-color: #f2f2f2;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}/*# sourceMappingURL=styles.css.map */
