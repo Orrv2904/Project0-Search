@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Search</title>
 </head>
+
 <body>
-     <form action="https://google.com/search">
-            <input type="text" name="q">
+    <!-- Header -->
+    <div class="head">
+        <div class="links">
+            <ul>
+                <li><a href="./images.html">Images</a></li>
+                <li><a href="./advanced.html">Advance Search</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Header ... -->
+
+    <!-- Search -->
+    <div class="sc-container">
+        <form action="https://google.com/search" method="get">
+            <div class="searching-fields">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="q">
+            </div>
             <input type="submit" value="Google Search">
+            
         </form>
+    </div>
+    <!-- Search ... -->
 </body>
+
 </html>
