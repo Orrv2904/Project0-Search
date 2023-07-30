@@ -10,6 +10,15 @@ span {
   color: #d93025;
   font-size: 20px;
   margin: 25px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .top-body {
@@ -42,8 +51,8 @@ a:hover {
   width: 92px;
   background-size: 528px 68px;
   vertical-align: middle;
-  padding-right: 20px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .logo .inner-logo-container {
   line-height: 58px;
@@ -135,4 +144,63 @@ input[type=submit] {
   height: 31px;
   float: right;
   margin-right: -17px;
+}
+@media screen and (max-width: 480px) {
+  input[type=submit] {
+    margin-top: 15px;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 18px;
+    margin: 20px 30px;
+  }
+  .main-container {
+    margin: 30px 2% 0 30px;
+  }
+  .container-inputs .inner-left-container-inputs {
+    min-width: 140px;
+    flex: 0;
+  }
+  .container-inputs .inner-right-container-inputs {
+    min-width: 130px;
+  }
+  input[type=submit] {
+    margin-right: 0;
+    margin-top: 10px;
+    float: none;
+  }
+  .inner-logo-container {
+    display: none;
+  }
+  .inner-logo-container2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 16px;
+    margin: 15px 20px;
+  }
+  .main-container {
+    margin: 20px 2% 0 20px;
+  }
+  .container-inputs .inner-left-container-inputs {
+    min-width: 120px;
+  }
+  .container-inputs .inner-right-container-inputs {
+    min-width: 110px;
+  }
+  .container-inputs input[type=text] {
+    height: 20px;
+    font-size: 12px;
+  }
+  #find-pages-with {
+    font-size: 15px;
+  }
+  .form-from {
+    margin-top: 40px;
+  }
 }/*# sourceMappingURL=advanced.css.map */
