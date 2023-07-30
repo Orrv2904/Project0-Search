@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./statics/icos/2333392-browser-chrome-internet_85594.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../statics/style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Search</title>
 </head>
+
 <body>
-    
+    <!-- Header -->
+    <div class="head">
+        <div class="links">
+            <ul>
+                <li><a href="../index.html">Home Search</a></li>
+                <li><a href="./templates/advanced.html">Advance Search</a></li>
+                <li><a href=""><img class="grid" src="../statics/images/google-grid.png" title="Google apps"></a></li>
+                <li><a class="links" href=""><button class="signbutton left-rounded right-rounded" type="button">Sign in</button></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Header ... -->
+
+    <!-- Search -->
+    <div class="sc-container">
+        <img class="google-img" src="../statics/images/Google_Images_2015_logo.svg.png" alt="GoogleLogo">
+        <form action="https://google.com/search" method="get">
+            <div class="searching-fields">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="q" placeholder="Search in Google or type a URL">
+                <img class="microphone" src="../statics/images/song_mic_microphone_sound_voice_google_icon_228397.png" alt="Microphone">
+                <img class="lens" src="../statics/images/google_lens_logo_icon_159340.png" alt="Lens">
+            </div>
+            <div class="button-container">
+                <input type="submit" value="Google Image">
+                <input type="hidden" name="tbm" value="isch" />
+            </div>
+        </form>
+    </div>
+    <!-- Search ... -->
 </body>
+
 </html>
