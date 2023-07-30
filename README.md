@@ -17,7 +17,7 @@ you can see it here: https://orrv2904.github.io/Project0-Search/
 
 ## Youtube Video
 
-This is a short video where you can see the project specifications.
+This is a short video where you can see the project specifications: https://youtu.be/MHv-heO6KJ8
 
 ## Assignment specification
 - **Pages**. Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
