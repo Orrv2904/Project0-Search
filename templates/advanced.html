@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../statics/icos/2333392-browser-chrome-internet_85594.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../statics/style/advanced.css">
+  <link rel="stylesheet" href="../statics/style/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Search</title>
 </head>
+
 <body>
-    
+  <div class="top-body">
+    <div class="top-body-logo-container">
+      <div class="inner-logo-container">
+        <img class="logo" src="../statics/images/Google_2015_logo.svg.png" />
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="head">
+      <div class="links">
+        <ul>
+          <li><a href="../templates/images.html">Images</a></li>
+          <li><a href="../index.html">Home Search</a></li>
+          <li><a href=""><img class="grid" src="../statics/images/google-grid.png" title="Google apps"></a></li>
+          <li><a class="links" href=""><button class="signbutton left-rounded right-rounded" type="button">Sign
+                in</button></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Header ... -->
+  </div>
+
+  <div class="header">
+    <p>Advanced Search</p>
+  </div>
+  <div class="hr-line"></div>
+
+  <div class="main-container">
+    <form class="form-from" action="https://google.com/search">
+      <div class="container-inputs">
+        <div class="inner-left-container-inputs">
+          <span id="find-pages-with">Find pages with...</span>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container-inputs">
+        <div class="inner-left-container-inputs">
+          <span>all these words:</span>
+        </div>
+        <div class="inner-right-container-inputs">
+          <input value="" autofocus="autofocus" name="as_q" type="text" />
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container-inputs">
+        <div class="inner-left-container-inputs">
+          <span>this exact word or phrase:</span>
+        </div>
+        <div class="inner-right-container-inputs">
+          <input value="" autofocus="autofocus" name="as_epq" type="text" />
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container-inputs">
+        <div class="inner-left-container-inputs">
+          <span>any of these words:</span>
+        </div>
+        <div class="inner-right-container-inputs">
+          <input value="" autofocus="autofocus" name="as_oq" type="text" />
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container-inputs">
+        <div class="inner-left-container-inputs">
+          <span>none of these words:</span>
+        </div>
+        <div class="inner-right-container-inputs">
+          <input value="" autofocus="autofocus" name="as_eq" type="text" />
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container-inputs">
+        <div class="inner-left-container-inputs">
+          <span></span>
+        </div>
+        <div class="inner-right-container-inputs">
+          <input class="inp" type="submit" value="Advanced Search" />
+        </div>
+      </div>
+      
+      <br />
+    </form>
+  </div>
 </body>
+
 </html>
